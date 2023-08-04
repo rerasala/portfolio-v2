@@ -1,0 +1,19 @@
+/* CSS for fade-in effect */
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out; /* Same duration as the timeout in CSSTransition */
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out; /* Same duration as the timeout in CSSTransition */
+  }
+  

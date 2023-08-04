@@ -1,0 +1,9 @@
+/* styles.module.css or any other CSS file you are using */
+.image-with-shadow {
+    border-radius: 10px; /* Set the corner radius to create rounded corners */
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5); /* Set the shadow color to white */
+  }
+
+  .animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+  
+  
