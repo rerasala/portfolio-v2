@@ -19,10 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <NavBar />
       <body className={inter.className}>{children}</body>
-      <NewTimeline />
-      <Projects />
     </>
   )
 }

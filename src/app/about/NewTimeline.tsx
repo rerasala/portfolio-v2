@@ -1,4 +1,3 @@
-import { Icon } from '@iconify/react';
 import '../w3.css';
 
 export default function NewTimeline() {
@@ -48,7 +47,7 @@ export default function NewTimeline() {
             <div className="container text-center max-w-fit grid grid-rows-2 grid-flow-col gap-8 mb-10">
                 <div className="bg-gradient-to-r from-red-500 to-orange-500 w-50 text-center flex flex-col justify-center rounded-xl p-5">
                     <div className="text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" stroke = "black" fill = "none" stroke-width="1.5" className='w-10 h-10 mx-auto' viewBox="0 0 256 256"><path fill="black" d="M229.06 53.89a32.92 32.92 0 0 0-26.95-26.95c-32.37-5.49-93.39-8-138.27 36.9s-42.39 105.9-36.9 138.27a32.92 32.92 0 0 0 27 26.95A206.58 206.58 0 0 0 88.27 232c32.09 0 72.05-8 103.89-39.84c44.89-44.88 42.39-105.9 36.9-138.27Zm-61.61-14a192 192 0 0 1 32 2.8a16.94 16.94 0 0 1 13.85 13.87a188.59 188.59 0 0 1 2.7 36.22L163.21 40c1.4-.08 2.79-.1 4.24-.1ZM56.56 213.3a16.94 16.94 0 0 1-13.86-13.86a188.59 188.59 0 0 1-2.7-36.22L92.78 216a187.79 187.79 0 0 1-36.22-2.7Zm124.3-32.44c-11.61 11.6-33.27 27.73-67.37 33.27l-71.62-71.62c5.54-34.1 21.67-55.76 33.27-67.37S108.4 47.4 142.5 41.86l71.63 71.63c-5.54 34.1-21.67 55.76-33.27 67.37Zm-15.22-90.5a8 8 0 0 1 0 11.31L151.3 116l6.34 6.34a8 8 0 1 1-11.31 11.3l-6.33-6.33L127.31 140l6.34 6.34a8 8 0 1 1-11.3 11.31L116 151.3l-14.34 14.34a8 8 0 1 1-11.31-11.31L104.7 140l-6.34-6.34a8 8 0 0 1 11.31-11.3l6.34 6.34l12.68-12.7l-6.34-6.34a8 8 0 0 1 11.3-11.31l6.35 6.35l14.34-14.34a8 8 0 0 1 11.3 0Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" stroke = "black" fill = "none" strokeWidth="1.5" className='w-10 h-10 mx-auto' viewBox="0 0 256 256"><path fill="black" d="M229.06 53.89a32.92 32.92 0 0 0-26.95-26.95c-32.37-5.49-93.39-8-138.27 36.9s-42.39 105.9-36.9 138.27a32.92 32.92 0 0 0 27 26.95A206.58 206.58 0 0 0 88.27 232c32.09 0 72.05-8 103.89-39.84c44.89-44.88 42.39-105.9 36.9-138.27Zm-61.61-14a192 192 0 0 1 32 2.8a16.94 16.94 0 0 1 13.85 13.87a188.59 188.59 0 0 1 2.7 36.22L163.21 40c1.4-.08 2.79-.1 4.24-.1ZM56.56 213.3a16.94 16.94 0 0 1-13.86-13.86a188.59 188.59 0 0 1-2.7-36.22L92.78 216a187.79 187.79 0 0 1-36.22-2.7Zm124.3-32.44c-11.61 11.6-33.27 27.73-67.37 33.27l-71.62-71.62c5.54-34.1 21.67-55.76 33.27-67.37S108.4 47.4 142.5 41.86l71.63 71.63c-5.54 34.1-21.67 55.76-33.27 67.37Zm-15.22-90.5a8 8 0 0 1 0 11.31L151.3 116l6.34 6.34a8 8 0 1 1-11.31 11.3l-6.33-6.33L127.31 140l6.34 6.34a8 8 0 1 1-11.3 11.31L116 151.3l-14.34 14.34a8 8 0 1 1-11.31-11.31L104.7 140l-6.34-6.34a8 8 0 0 1 11.31-11.3l6.34 6.34l12.68-12.7l-6.34-6.34a8 8 0 0 1 11.3-11.31l6.35 6.35l14.34-14.34a8 8 0 0 1 11.3 0Z"/></svg>
                     </div>
                     <p className="text-black p-3">
                         College Football
@@ -56,7 +55,7 @@ export default function NewTimeline() {
                 </div>
                 <div className="bg-gradient-to-r from-cyan-500 to-blue-500 w-50 text-center flex flex-col justify-center rounded-xl p-5">
                     <div className="text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className = 'w-10 h-10 mx-auto' viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M12 4.5a2.5 2.5 0 0 0-4.96-.46a2.5 2.5 0 0 0-1.98 3a2.5 2.5 0 0 0-1.32 4.24a3 3 0 0 0 .34 5.58a2.5 2.5 0 0 0 2.96 3.08a2.5 2.5 0 0 0 4.91.05L12 20V4.5ZM16 8V5c0-1.1.9-2 2-2m-6 10h4"/><path d="M12 18h6a2 2 0 0 1 2 2v1M12 8h8m.5 0a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Zm-4 5a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Z"/><path d="M20.5 21a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Zm-2-18a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Z"/></g></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" className = 'w-10 h-10 mx-auto' viewBox="0 0 24 24"><g fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path d="M12 4.5a2.5 2.5 0 0 0-4.96-.46a2.5 2.5 0 0 0-1.98 3a2.5 2.5 0 0 0-1.32 4.24a3 3 0 0 0 .34 5.58a2.5 2.5 0 0 0 2.96 3.08a2.5 2.5 0 0 0 4.91.05L12 20V4.5ZM16 8V5c0-1.1.9-2 2-2m-6 10h4"/><path d="M12 18h6a2 2 0 0 1 2 2v1M12 8h8m.5 0a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Zm-4 5a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Z"/><path d="M20.5 21a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Zm-2-18a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0Z"/></g></svg>
                     </div>
                     <p className="text-black p-3">
                         Cloud Computing
@@ -72,7 +71,7 @@ export default function NewTimeline() {
                 </div>
                 <div className="bg-gradient-to-r from-yellow-300 to-amber-500 text-center flex flex-col justify-center rounded-xl p-5">
                     <div className="text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className = "w-10 h-10 mx-auto" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9.5 11h.01m4.99 0h.01M9.5 15a3.5 3.5 0 0 0 5 0"/><path d="M7 5h1V3h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3v1H7v-1a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3"/></g></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" className = "w-10 h-10 mx-auto" viewBox="0 0 24 24"><g fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path d="M9.5 11h.01m4.99 0h.01M9.5 15a3.5 3.5 0 0 0 5 0"/><path d="M7 5h1V3h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3v1H7v-1a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3"/></g></svg>
                     </div>
                     <p className="text-black p-3">
                         LEGO Collections!

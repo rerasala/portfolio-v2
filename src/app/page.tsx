@@ -1,11 +1,15 @@
 import Image from 'next/image'
 import web from '../../public/images/web_thing.svg';
 import './w3.css';
+import NavBar from './navbar/navbar';
+import NewTimeline from './about/NewTimeline';
+import Projects from './projects/projects';
 
 export default function Home() {
 
   return (
     <>
+    <NavBar />
     <main id = "main" className="flex flex-col flex-wrap justify-between mt-20 mx-8 md:mx-10 lg:mx-20 xl:mx-30 w3-animate-opacity">
       <div className="flex items-center justify-around flex-col sm:flex-col md:flex-row">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex pt-5">
@@ -29,6 +33,8 @@ export default function Home() {
       </div>
       </div>
     </main>
+    <NewTimeline />
+    <Projects />
     </>
   )
 }
