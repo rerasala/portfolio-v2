@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import headshot from '../../../public/images/me.jpg'
 import '../w3.css';
 
 export default function Projects() {
