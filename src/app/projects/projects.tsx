@@ -5,7 +5,7 @@ export default function Projects() {
         <>
         <div id = "projects" className="mx-8 md:mx-10 lg:mx-20 xl:mx-30 mt-10 w3-animate-opacity-delay-2">
         <h2 className='text-2xl font-semibold text-center'>Projects</h2>
-        <div className="flex flex-row flex-wrap container gap-x-6 p-4 justify-center">
+        <div className="flex flex-row flex-wrap container gap-x-6 p-4 justify-center mx-auto">
         <div className="max-w-xs rounded overflow-hidden shadow-lg m-2 bg-gray-200">
             {/* <div className='w-full'>
                 <Image src={headshot} alt={'picture of me'}></Image>
