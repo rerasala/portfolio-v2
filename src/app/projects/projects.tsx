@@ -54,11 +54,11 @@ export default function Projects() {
                 <span className="inline-block bg-blue-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Classification</span>
             </div>
         </div>
-        </div>
         <div className='container'>
             <p className='text-center font-light p-4'>
                 Message me if you would like any information about these projects <a target = "_blank" className = 'underline' href="mailto:rerasala@gmail.com">here</a>
             </p>
+        </div>
         </div>
         </div>
         </>
