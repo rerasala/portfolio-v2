@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="hidden md:flex justify-start w-full">
             <div className="flex items-baseline space-x-4">
               <a
-                href="#nav"
+                href="#main"
                 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
@@ -91,7 +91,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="#nav"
+              href="#main"
               className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Home
