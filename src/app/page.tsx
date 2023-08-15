@@ -4,6 +4,7 @@ import './w3.css';
 import NavBar from './navbar/navbar';
 import NewTimeline from './about/NewTimeline';
 import Projects from './projects/projects';
+import Footer from './footer/footer';
 
 export default function Home() {
 
@@ -35,6 +36,7 @@ export default function Home() {
     </main>
     <NewTimeline />
     <Projects />
+    <Footer />
     </>
   )
 }
