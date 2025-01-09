@@ -5,7 +5,7 @@ export default function Footer() {
     
     return(
         <>
-            <div className="footer flex justify-center items-center text-white py-4 w3-animate-opacity-delay-2">
+            <div className="footer flex justify-center items-center text-white py-4 w3-animate-opacity-delay-2 p-4">
                 <p>Reach out if you would like more information about these projects, or anything else, below: </p>
             </div>
             <footer className="footer flex justify-center items-center text-white py-4 w3-animate-opacity-delay-2">
