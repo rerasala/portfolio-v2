@@ -38,7 +38,13 @@ export default function NewTimeline() {
                         <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -left-1.5  "></div>
                         <time className="mb-1 text-sm font-normal leading-none text-gray-400">August 2023 - Present</time>
                         <h3 className="text-lg font-semibold text-gray-100">Graduate Student &mdash; Johns Hopkins University</h3>
-                        <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">Candidate for MS in Artificial Intelligence</p>
+                        <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">Pursuing my MS in Artificial Intelligence</p>
+                    </li>
+                    <li className="mb-10 ml-4">
+                        <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -left-1.5  "></div>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-400">February 2024 - Present</time>
+                        <h3 className="text-lg font-semibold text-gray-100">Software Engineer &mdash; Amazon</h3>
+                        <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">Full time, Full stack</p>
                     </li>
                 </ol>
             </div>
